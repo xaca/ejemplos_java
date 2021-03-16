@@ -1,37 +1,42 @@
 public class Promedio{
-	public static void main(String[] args) 
-	{
-		float resultado, dato1 = 2;
-		int dato2 = 4;
-		byte dato3 = 127;
-		short dato4 = 456;
-		char dato5 = 6;
+	public static void main(String[] args) {
+		//Declaracion de variables
+		int numero1;
+		char numero2;
+		short numero3;
+		long numero4;
+		float numero5;
+		float resultado;
 
-		resultado = (dato1+dato2+dato3+dato4+dato5)/5;
+		//Inicializacion
+		numero1 = 45;
+		numero2 = 4;
+		numero3 = 567;
+		numero4 = 123;
+		numero5 = 4.5F;
 
+		//Operacion
+		resultado = (numero1+numero2+numero3+numero4+numero5)/5;
+
+		//Impresion del resultado
 		//System.out.println("El resultado es "+resultado);
 
-		/* Como imprimir los valores de las variables en un nuevo reglon
-		y por ultimo el resultado*/
+		/* inicio comentario
+		System.out.println("int "+numero1);
+		System.out.println("char "+numero2);
+		System.out.println("short "+numero3);
+		System.out.println("long "+numero4);
+		System.out.println("float "+numero5);
+		System.out.println("El resultado es "+resultado);
+		   Fin comentario*/
 
-		System.out.println();
-		System.out.print("float "+dato1);		
-		System.out.print(" int "+dato2);		
-		System.out.print(" byte "+dato3);		
-		System.out.print(" short "+dato4);		
-		System.out.print(" char "+dato5);
+		System.out.print("int "+numero1);
+		System.out.print(" char "+numero2);
+		System.out.print(" short "+numero3);
+		System.out.print(" long "+numero4);
+		System.out.print(" float "+numero5);
 		System.out.println();
 		System.out.println("El resultado es "+resultado);
-		System.out.println();
-		System.out.println("float "+dato1);		
-		System.out.println("int "+dato2);		
-		System.out.println("byte "+dato3);		
-		System.out.println("short "+dato4);		
-		System.out.println("char "+dato5);
-		System.out.println("El resultado es "+resultado);
-		System.out.println();
-		/* Como imprimir los valores de las variables en el mismo reglon
-		y por ultimo el resultado */
 
 	}
 }
